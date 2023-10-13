@@ -1,5 +1,64 @@
 # Changelog
 
+## [1.10.4](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/compare/@kubb/cli-v1.11.1...@kubb/cli-v1.10.4) (2023-10-13)
+
+
+### 📚 Documentation
+
+* add tip for `module` import ([5b7e24a](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/5b7e24a7171e644d35e6f9a49fc2e6543868ba64))
+* readme update + typo's ([a1bb145](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/a1bb14550c7d6d73832da612275ef66f65d32a02))
+* swagger-msw plugin ([b8f14c1](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b8f14c1690bc66160936c92144a2e2b0ce227d88))
+
+
+### 📦 Miscellaneous Chores
+
+* release 1.10.4 ([e2607b3](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/e2607b3499ea9c810b508456b4e0ad5841a27347))
+* release 1.2.2 ([1213f57](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/1213f57a4a56b5cac7709b24060d42f5dfc56d40))
+* release 1.2.2 ([9489c97](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/9489c97159a0f0e755b4257cd330e11d4d648b88))
+* release 1.3.1 ([3821664](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/3821664148c130e7e1905ac59ec359204b0c0370))
+* release 1.3.1 ([fc869d9](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/fc869d9c1429f3b513e3ba5a8854e1bf1d1f2122))
+* release 1.4.0 ([fc0de82](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/fc0de826f94c2ff933dd2cefe26168ea6fcf8c3b))
+* release 1.4.0 ([b1d4561](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b1d456179bc4415168142939b4be64b225a4870f))
+* release 1.4.1 ([9805506](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/98055065a6931b96dc1038890eb56ebb0342818f))
+* release 1.5.2 ([2f49c97](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/2f49c97863b3dcee1a6158d97a5ca66848d52261))
+* release 1.8.0 ([218b7f0](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/218b7f0e8ec1cbc8b6db504ec6e06d8dbeb1109e))
+
+
+### ✨ Features
+
+* `ClientFunction` with React for creating an axios get/post/put call ([7ef6819](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/7ef68198c85888d76bf2949d9cc99993c1dd7fc7))
+* `optionalType` for `swagger-ts` ([ae204ea](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/ae204ea5bd02a7817c281bcd14fbf729e4d48eb3))
+* ✨ add `reset.d.ts` to the `@kubb/ts-config` that can be used to override default TypeScrip types ([ae47aa5](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/ae47aa5bbffc0f24d878e917eda3047856ca3fc7))
+* ✨ skipBy to exclude `tags`, `names`, `paths`, ... out of the generation ([44be77b](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/44be77bb8748ae0188481716ef19dc6a39f1e538))
+* support for `bun` with read/write ([4c4283b](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/4c4283bb92995d369c65ba8087f81771ffb36086))
+* use of `cac` instead of `commander` ([3814acb](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/3814acb392f882ded2a75ef987ccdd79227a9238))
+* use of `jsxImportSource` for a custom react-runtime being used by `@kubb/react-template` ([db8f351](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/db8f3519ffa8dc2ede5309f0c4c8acb30bc6757e))
+* use of a tranformer function to override the name of the hook/type/client ([f405183](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/f405183b198e47e732873108956f639d94d94937))
+
+
+### 🐞 Bug Fixes
+
+* 🐛 fix: `fileManager` memory loop ([acc58dc](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/acc58dcb40e4c320da2ceb09b3d8a1a32abed515))
+* add `@swc/core` ([7c44878](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/7c44878e83d65eeb57dbbea15b2066cc61cc2471))
+* anyOf support(same result as oneOf) ([70f5d47](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/70f5d47a93a1eebfaef50c18f9b0fbc4c17cc6ff))
+* better timeout order for CLI ([44dee73](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/44dee7370ca5e65e85aa312dcedc83dac61e85dd))
+* clientOptions to override Axios/Fetch options ([f9799e7](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/f9799e70d9fafe64d53959792061f14f74d3ed21))
+* correct use of logging(added `stacktrace` option) ([6c89e3d](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/6c89e3dae8b318625e3f484b1dbb259f9b14d378))
+* export `client.ts` in `index.js` ([52b0c81](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/52b0c81f190cae86de557bb62db60c8e18cfb07b))
+* full debug mode for fileManager, build, pluginManager and update for Queue to include `node.js` performance ([839d636](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/839d6362e5ab19eb893e0ac1b6b1eb82d9c6de58))
+* improvements for logger used in our CLI ([9c648da](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/9c648daef4a23c8eec3f5d2529e933cbf7d2e3d3))
+* logging naming ([9ed216f](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/9ed216f1ffb05089a2071818855dc03000e78608))
+* msw without requestMock ([17a1ba2](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/17a1ba23886dea79efb0752eb23323dd60dbaebd))
+* pluginManager with `api` config will now be an function so the `core` functionality is accessible when using `this` ([4306318](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/43063189a1a18ed2aca23b0505d3163aeddbc2ef))
+* remove `@swc/core` dependency(decrease of the bundle size) ([2dfc28f](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/2dfc28f7959af550abd807fa38d1989e3603be7c))
+* remove rimraf + use of correct order for params ([03180e3](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/03180e3d33c5dd96bb101be691ae56a2edd3f0b9))
+* run with a timeout and every executation will be done with our `queue` ([60e00cf](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/60e00cf4f1dfd1628681f39959d544d8e3843a7d))
+* support for `configs/` folder for `kubb.config.ts` ([e448c32](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/e448c3274a5df672bb9a8bfbfb9957dbdf954afd))
+* update packages ([8b5a483](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/8b5a4836d13009138d94f2af236a9fa0bec50c6d))
+* upgrade `oas` + custom patch for `typesVersions` ([e9e26ae](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/e9e26ae204a2eb3b6dc1e3a391c17a5d9d64f86c))
+* upgrade oas(es support) and overall packages ([c5b1f4e](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/c5b1f4e0f6e4fc880df94f8a02d9a0b9b81053ff))
+* warning with correct cli message(validate for swagger) ([b091e28](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b091e282f079e7694bf04a35ea6a0ebfd3aa06da))
+
 ## [1.11.1](https://github.com/kubb-project/kubb/compare/@kubb/cli-v1.11.0...@kubb/cli-v1.11.1) (2023-10-12)
 
 
