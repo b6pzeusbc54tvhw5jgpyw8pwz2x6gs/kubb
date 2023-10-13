@@ -1,5 +1,81 @@
 # Changelog
 
+## [1.10.4](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/compare/@kubb/core-v1.11.1...@kubb/core-v1.10.4) (2023-10-13)
+
+
+### 📚 Documentation
+
+* add tip for `module` import ([5b7e24a](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/5b7e24a7171e644d35e6f9a49fc2e6543868ba64))
+* react-hook-form + data-driven-forms example ([df538f9](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/df538f95763976c2fe544c761b13288b62b182ef))
+* readme update + typo's ([a1bb145](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/a1bb14550c7d6d73832da612275ef66f65d32a02))
+* swagger-msw plugin ([b8f14c1](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b8f14c1690bc66160936c92144a2e2b0ce227d88))
+* update docs ([a246bb1](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/a246bb1171a95ba9d639468c5f8214573bd33513))
+* use of vitepress ([346a3b7](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/346a3b7099e7019c04750bad8fe1fa9dc66c3c97))
+
+
+### 📦 Miscellaneous Chores
+
+* release 1.10.4 ([e2607b3](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/e2607b3499ea9c810b508456b4e0ad5841a27347))
+* release 1.2.2 ([1213f57](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/1213f57a4a56b5cac7709b24060d42f5dfc56d40))
+* release 1.2.2 ([9489c97](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/9489c97159a0f0e755b4257cd330e11d4d648b88))
+* release 1.3.1 ([3821664](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/3821664148c130e7e1905ac59ec359204b0c0370))
+* release 1.3.1 ([fc869d9](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/fc869d9c1429f3b513e3ba5a8854e1bf1d1f2122))
+* release 1.4.0 ([fc0de82](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/fc0de826f94c2ff933dd2cefe26168ea6fcf8c3b))
+* release 1.4.0 ([b1d4561](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b1d456179bc4415168142939b4be64b225a4870f))
+* release 1.4.1 ([9805506](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/98055065a6931b96dc1038890eb56ebb0342818f))
+* release 1.5.2 ([2f49c97](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/2f49c97863b3dcee1a6158d97a5ca66848d52261))
+* release 1.8.0 ([218b7f0](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/218b7f0e8ec1cbc8b6db504ec6e06d8dbeb1109e))
+
+
+### ✨ Features
+
+* `client.ts` globals(declare const) can override the options set for `axios` ([b9dc851](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b9dc851896a5509cbf0e2f1910e4939631efa337))
+* `ClientFunction` with React for creating an axios get/post/put call ([7ef6819](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/7ef68198c85888d76bf2949d9cc99993c1dd7fc7))
+* `optionalType` for `swagger-ts` ([ae204ea](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/ae204ea5bd02a7817c281bcd14fbf729e4d48eb3))
+* `QueryKeyFunction` to render queryKey with React(`@kubb/react-template`) ([0157491](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/0157491d2007cb6e64578871f4478f1787684ed6))
+* ✨ `swagger-form` FormGenerator and FormParser ([6424e5f](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/6424e5f48960a24313e4ce2c115fd58af3cde814))
+* ✨ add `reset.d.ts` to the `@kubb/ts-config` that can be used to override default TypeScrip types ([ae47aa5](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/ae47aa5bbffc0f24d878e917eda3047856ca3fc7))
+* ✨ skipBy to exclude `tags`, `names`, `paths`, ... out of the generation ([44be77b](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/44be77bb8748ae0188481716ef19dc6a39f1e538))
+* ✨ useInfiniteQuery for `React`, `Solid`, `Svelte` and `Vue` ([d683cc7](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/d683cc7909818757f62560bc1936b79bd0a79bfe))
+* support for `bun` with read/write ([4c4283b](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/4c4283bb92995d369c65ba8087f81771ffb36086))
+* use of `cac` instead of `commander` ([3814acb](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/3814acb392f882ded2a75ef987ccdd79227a9238))
+* use of `createRoot` and `client` subPackage ([d2e7b45](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/d2e7b4596bbdba1e1dacbcd3df6b38a3d6fde467))
+* use of `jsxImportSource` for a custom react-runtime being used by `@kubb/react-template` ([db8f351](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/db8f3519ffa8dc2ede5309f0c4c8acb30bc6757e))
+
+
+### 🐞 Bug Fixes
+
+* `eventEmitter` public for `PluginManager` ([c3d340f](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/c3d340f3d613b88cd4dd655f786446776975466e))
+* 🐛 fix: `fileManager` memory loop ([acc58dc](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/acc58dcb40e4c320da2ceb09b3d8a1a32abed515))
+* add `QueryBuilder` for Tanstack/query generators ([3c4ea57](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/3c4ea57077a0d1c131a2f692e9f2a55c6bcec468))
+* advanced queue ([e8e90b9](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/e8e90b9cbeadad793b759a174641874dc39c2c01))
+* anyOf support(same result as oneOf) ([70f5d47](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/70f5d47a93a1eebfaef50c18f9b0fbc4c17cc6ff))
+* correct use of logging(added `stacktrace` option) ([6c89e3d](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/6c89e3dae8b318625e3f484b1dbb259f9b14d378))
+* full debug mode for fileManager, build, pluginManager and update for Queue to include `node.js` performance ([839d636](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/839d6362e5ab19eb893e0ac1b6b1eb82d9c6de58))
+* getParams refactor for generics ([3b01f51](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/3b01f51b2e9fdf891a23f655eba5680be6dcb76e))
+* improvements for logger used in our CLI ([9c648da](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/9c648daef4a23c8eec3f5d2529e933cbf7d2e3d3))
+* logging naming ([9ed216f](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/9ed216f1ffb05089a2071818855dc03000e78608))
+* make `vue` work with refs ([d243087](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/d2430871401ab23fc3b3af1823be3538819fdba1))
+* max 50 queue items per run ([c90e28f](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/c90e28f324a98ea21f136058f5e02342d8b22a17))
+* pluginManager with `api` config will now be an function so the `core` functionality is accessible when using `this` ([4306318](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/43063189a1a18ed2aca23b0505d3163aeddbc2ef))
+* proper escape Regex(Escape all characters not included in SingleStringCharacters and DoubleStringCharacters) ([4b43cc1](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/4b43cc169de5173eec8a760148fb4ab33d2a4eab))
+* queryKey with `{url, params}` object ([186e05d](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/186e05d5c310766c8579fd840ce3dc6bb6f14bb5))
+* randomColour with more options(dark mode with `bold`) ([487d59c](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/487d59c4f25d754dc7bf9562ea1bf40334cefaaf))
+* read/write with queue to not block nodejs ([b73d21f](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b73d21f4866fd58feb9ff05057cd74946cace495))
+* remove `@swc/core` dependency(decrease of the bundle size) ([2dfc28f](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/2dfc28f7959af550abd807fa38d1989e3603be7c))
+* remove out unused imports ([14f7c48](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/14f7c488963b5d0659f00c38983dc5c14209b4d0))
+* remove rimraf + use of correct order for params ([03180e3](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/03180e3d33c5dd96bb101be691ae56a2edd3f0b9))
+* ResponseConfig for mutation ([4c48ff6](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/4c48ff694ff5df1091aad3290420b3a85234bf1c))
+* run with a timeout and every executation will be done with our `queue` ([60e00cf](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/60e00cf4f1dfd1628681f39959d544d8e3843a7d))
+* spacing TS ([4218c1b](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/4218c1b59bbd0f2189cf2a0f88da089ed0cb086d))
+* types fix `exports` based on `https://arethetypeswrong.github.io/` ([f942def](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/f942defb40584fdfddc94852bf751a6acf10476a))
+* uniqueId per plugin ([b170dd8](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b170dd80433852c7c7dfe462c737c8abd11f8d6d))
+* upgrade `oas` + custom patch for `typesVersions` ([e9e26ae](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/e9e26ae204a2eb3b6dc1e3a391c17a5d9d64f86c))
+* upgrade js-runtime ([4c1379d](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/4c1379dad889cd244f5d3e0bd3178b08a34eb981))
+* upgrade oas(es support) and overall packages ([c5b1f4e](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/c5b1f4e0f6e4fc880df94f8a02d9a0b9b81053ff))
+* use of pluginsOptions and small cleanup ([15d50a5](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/15d50a5d56f1ca8b44ef70be56fefc489eaf6d93))
+* warning with correct cli message(validate for swagger) ([b091e28](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b091e282f079e7694bf04a35ea6a0ebfd3aa06da))
+
 ## [1.11.1](https://github.com/kubb-project/kubb/compare/@kubb/core-v1.11.0...@kubb/core-v1.11.1) (2023-10-12)
 
 

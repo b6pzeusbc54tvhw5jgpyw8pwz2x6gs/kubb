@@ -1,5 +1,62 @@
 # Changelog
 
+## [1.10.4](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/compare/@kubb/swagger-faker-v1.11.1...@kubb/swagger-faker-v1.10.4) (2023-10-13)
+
+
+### 📚 Documentation
+
+* add tip for `module` import ([5b7e24a](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/5b7e24a7171e644d35e6f9a49fc2e6543868ba64))
+* react-hook-form + data-driven-forms example ([df538f9](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/df538f95763976c2fe544c761b13288b62b182ef))
+* readme update + typo's ([a1bb145](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/a1bb14550c7d6d73832da612275ef66f65d32a02))
+* swagger-msw plugin ([b8f14c1](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b8f14c1690bc66160936c92144a2e2b0ce227d88))
+
+
+### 📦 Miscellaneous Chores
+
+* release 1.10.4 ([e2607b3](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/e2607b3499ea9c810b508456b4e0ad5841a27347))
+* release 1.2.2 ([1213f57](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/1213f57a4a56b5cac7709b24060d42f5dfc56d40))
+* release 1.2.2 ([9489c97](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/9489c97159a0f0e755b4257cd330e11d4d648b88))
+* release 1.3.1 ([3821664](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/3821664148c130e7e1905ac59ec359204b0c0370))
+* release 1.3.1 ([fc869d9](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/fc869d9c1429f3b513e3ba5a8854e1bf1d1f2122))
+* release 1.4.0 ([fc0de82](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/fc0de826f94c2ff933dd2cefe26168ea6fcf8c3b))
+* release 1.4.0 ([b1d4561](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b1d456179bc4415168142939b4be64b225a4870f))
+* release 1.4.1 ([9805506](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/98055065a6931b96dc1038890eb56ebb0342818f))
+* release 1.5.2 ([2f49c97](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/2f49c97863b3dcee1a6158d97a5ca66848d52261))
+* release 1.8.0 ([218b7f0](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/218b7f0e8ec1cbc8b6db504ec6e06d8dbeb1109e))
+
+
+### 🐞 Bug Fixes
+
+* `fakerParser`, `formParser` and `zodParser` with custom mapper ([77151ba](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/77151ba528759a032d8b86db98694c28a232be16))
+* advanced queue ([e8e90b9](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/e8e90b9cbeadad793b759a174641874dc39c2c01))
+* allOf, anyOf without `any & any` fallback ([ee0237f](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/ee0237f7a7516a9adebf5dbbeeae0df4a2369fec))
+* anyOf support(same result as oneOf) ([70f5d47](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/70f5d47a93a1eebfaef50c18f9b0fbc4c17cc6ff))
+* headers ([fdc228a](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/fdc228a848f180ef1f1307ccedcdaa74c16caa5c))
+* include all schemas in `components` responses and request ([269929f](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/269929fc182822bd0757bab2a619340fc232e735))
+* pluginManager with `api` config will now be an function so the `core` functionality is accessible when using `this` ([4306318](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/43063189a1a18ed2aca23b0505d3163aeddbc2ef))
+* remove rimraf + use of correct order for params ([03180e3](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/03180e3d33c5dd96bb101be691ae56a2edd3f0b9))
+* remove uniqueId ([2607eff](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/2607effc60d1fb2aa1f4e69d60498234d7c03a96))
+* spacing TS ([4218c1b](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/4218c1b59bbd0f2189cf2a0f88da089ed0cb086d))
+* support for `minItems` and `maxItems` ([90a92a2](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/90a92a234e930f465709c8bb9d92f12723272d1e))
+* support for PATCH ([c326d7c](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/c326d7cafaa2ddf258579f889f061bbdf51a96fd))
+* types fix `exports` based on `https://arethetypeswrong.github.io/` ([f942def](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/f942defb40584fdfddc94852bf751a6acf10476a))
+* uniqueId per plugin ([b170dd8](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b170dd80433852c7c7dfe462c737c8abd11f8d6d))
+* upgrade `oas` + custom patch for `typesVersions` ([e9e26ae](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/e9e26ae204a2eb3b6dc1e3a391c17a5d9d64f86c))
+* use of pluginsOptions and small cleanup ([15d50a5](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/15d50a5d56f1ca8b44ef70be56fefc489eaf6d93))
+
+
+### ✨ Features
+
+* `ClientFunction` with React for creating an axios get/post/put call ([7ef6819](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/7ef68198c85888d76bf2949d9cc99993c1dd7fc7))
+* `contentType` to override default `application/json` ([c5d50ce](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/c5d50ce666806fe1f34684de1d542f3ac92e53fc))
+* ✨ `swagger-form` FormGenerator and FormParser ([6424e5f](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/6424e5f48960a24313e4ce2c115fd58af3cde814))
+* ✨ add `reset.d.ts` to the `@kubb/ts-config` that can be used to override default TypeScrip types ([ae47aa5](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/ae47aa5bbffc0f24d878e917eda3047856ca3fc7))
+* ✨ skipBy to exclude `tags`, `names`, `paths`, ... out of the generation ([44be77b](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/44be77bb8748ae0188481716ef19dc6a39f1e538))
+* choose to use `Date` or `string` type for format `date` or `date-time` ([404227d](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/404227de2c0baea4e0a14e9ff4c59efbc5c1db59))
+* use of `cac` instead of `commander` ([3814acb](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/3814acb392f882ded2a75ef987ccdd79227a9238))
+* use of `jsxImportSource` for a custom react-runtime being used by `@kubb/react-template` ([db8f351](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/db8f3519ffa8dc2ede5309f0c4c8acb30bc6757e))
+* use of a tranformer function to override the name of the hook/type/client ([f405183](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/f405183b198e47e732873108956f639d94d94937))
+
 ## [1.11.1](https://github.com/kubb-project/kubb/compare/@kubb/swagger-faker-v1.11.0...@kubb/swagger-faker-v1.11.1) (2023-10-12)
 
 

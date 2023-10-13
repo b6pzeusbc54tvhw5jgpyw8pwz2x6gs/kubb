@@ -1,5 +1,49 @@
 # Changelog
 
+## [1.10.4](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/compare/@kubb/swagger-msw-v1.11.1...@kubb/swagger-msw-v1.10.4) (2023-10-13)
+
+
+### 📚 Documentation
+
+* readme update + typo's ([a1bb145](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/a1bb14550c7d6d73832da612275ef66f65d32a02))
+* swagger-msw plugin ([b8f14c1](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b8f14c1690bc66160936c92144a2e2b0ce227d88))
+
+
+### 📦 Miscellaneous Chores
+
+* release 1.10.4 ([e2607b3](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/e2607b3499ea9c810b508456b4e0ad5841a27347))
+* release 1.2.2 ([1213f57](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/1213f57a4a56b5cac7709b24060d42f5dfc56d40))
+* release 1.2.2 ([9489c97](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/9489c97159a0f0e755b4257cd330e11d4d648b88))
+* release 1.3.1 ([3821664](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/3821664148c130e7e1905ac59ec359204b0c0370))
+* release 1.3.1 ([fc869d9](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/fc869d9c1429f3b513e3ba5a8854e1bf1d1f2122))
+* release 1.4.0 ([fc0de82](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/fc0de826f94c2ff933dd2cefe26168ea6fcf8c3b))
+* release 1.4.0 ([b1d4561](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b1d456179bc4415168142939b4be64b225a4870f))
+* release 1.4.1 ([9805506](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/98055065a6931b96dc1038890eb56ebb0342818f))
+* release 1.5.2 ([2f49c97](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/2f49c97863b3dcee1a6158d97a5ca66848d52261))
+* release 1.8.0 ([218b7f0](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/218b7f0e8ec1cbc8b6db504ec6e06d8dbeb1109e))
+
+
+### 🐞 Bug Fixes
+
+* better timeout order for CLI ([44dee73](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/44dee7370ca5e65e85aa312dcedc83dac61e85dd))
+* dereference for swagger JSON schemas ([ce3565a](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/ce3565a38cb50b5c213bc569d75977ad882e5b95))
+* description for pathParams and queryParams ([95ce086](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/95ce0863cad0a3f81e1787d780f710ed5a91ddba))
+* handlers + demo MSW ([3c3b636](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/3c3b6364ea28e44e407940299268166b5a348ab8))
+* headers ([fdc228a](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/fdc228a848f180ef1f1307ccedcdaa74c16caa5c))
+* msw without requestMock ([17a1ba2](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/17a1ba23886dea79efb0752eb23323dd60dbaebd))
+* remove rimraf + use of correct order for params ([03180e3](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/03180e3d33c5dd96bb101be691ae56a2edd3f0b9))
+* skipBy improvements ([b6fd85e](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/b6fd85eac66b3a6ecbd7d8099f374a37b17937a8))
+* spacing TS ([4218c1b](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/4218c1b59bbd0f2189cf2a0f88da089ed0cb086d))
+* upgrade `oas` + custom patch for `typesVersions` ([e9e26ae](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/e9e26ae204a2eb3b6dc1e3a391c17a5d9d64f86c))
+* use of pluginsOptions and small cleanup ([15d50a5](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/15d50a5d56f1ca8b44ef70be56fefc489eaf6d93))
+
+
+### ✨ Features
+
+* `ClientFunction` with React for creating an axios get/post/put call ([7ef6819](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/7ef68198c85888d76bf2949d9cc99993c1dd7fc7))
+* msw ([aed6b3e](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/aed6b3e146f933408152d9e3e077d1cd233f5616))
+* use of `jsxImportSource` for a custom react-runtime being used by `@kubb/react-template` ([db8f351](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/db8f3519ffa8dc2ede5309f0c4c8acb30bc6757e))
+
 ## [1.11.1](https://github.com/kubb-project/kubb/compare/@kubb/swagger-msw-v1.11.0...@kubb/swagger-msw-v1.11.1) (2023-10-12)
 
 
