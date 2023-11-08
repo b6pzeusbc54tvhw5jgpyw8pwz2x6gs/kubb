@@ -1,4 +1,52 @@
 # Changelog
+## [1.14.3](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/compare/kubb-v1.14.7...kubb-v1.14.3) (2023-11-08)
+
+
+### ✨ Features
+
+* `[@tanstack-query](https://github.com/tanstack-query)` v5 support ([c7d31dd](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/c7d31dd11bb8c42d441101069d5d6b0e81db68c0))
+* `input.data` for oasParser ([feb56f4](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/feb56f49f4b12215d5c948c3508d058fb5eb42c1))
+* `overrideBy` to specify different options per `operationId | tag | path | method` ([ebb3db1](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/ebb3db14c3796ea5211a49ccded5544ee54ad66c))
+* `pathParamsType` to override behaviour when calling a generated get/post/put function ([12624c4](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/12624c4e426b417e50e5f19665fd1b529b3d0b6a))
+* **client,swr,tanstack-query:** add clientImportPath option ([f3b3b30](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/f3b3b30501fe48a19071fe37b082d3646b81b5c8))
+* PackageManager to retreive a version in the package.json of the user ([220cd63](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/220cd631f95e24e622c6579849a53b3cedd95b50))
+* type for `resolveName` ([53f9893](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/53f98933e4b1ffe834622207768257d524f1f725))
+
+
+### 📦 Miscellaneous Chores
+
+* release 1.14.2 ([91e61ac](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/91e61acde1c3824c40f291e1142363eaa95fb1cf))
+* release 1.14.3 ([695f324](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/695f3242d61ac13f4284f3bdf529a3bc0e353244))
+
+
+### 📚 Documentation
+
+* add alpha docs ([ec726d7](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/ec726d79f2dbe2823ad3f532e378a1a174e74d24))
+* add helt as a contributor for code ([#560](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/issues/560)) ([6f88169](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/6f88169e464ffa7caa12d92514c989754b4df9f4))
+* add installation page with environments for node and typescript ([2aef090](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/2aef090477d529b04c868f595cb5796f6a51b39a))
+* add sponsor ([1d5c31a](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/1d5c31a63bbec5ae1eede9f597421b3f3e345e56))
+* better docs with examples ([fb42958](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/fb429588f213a0ec7973fd64aa24eea17529747a))
+* escape curly braces ([0690e47](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/0690e47421c32e251969f4809bf14ad83202bb44))
+* fix install command for swagger-tanstack-query plugin ([216390f](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/216390fd47c60aecf04e562e385715147ba97a38))
+* react-query v5 example ([7d9d428](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/7d9d428ba2195fff47da5cf2dc0c98c651fc824c))
+* swagger-msw docs update ([562c5b1](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/562c5b10fda5ea8e8cb2605b0942f49150c5b577))
+* update .all-contributorsrc [skip ci] ([df328ce](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/df328ce890c8b434c9b43548e376703d3014e5be))
+* update docs ([97bbf62](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/97bbf62331103f1c5fd8c90372e42b8a3d78dc8b))
+* update docs with examples ([9087387](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/908738795b2c1a3612dbc556b957f41c62465dc2))
+* update README.md [skip ci] ([6fd9e5a](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/6fd9e5a9d93674d47901769c1e52ada6255c325e))
+
+
+### 🐞 Bug Fixes
+
+* add `as QueryKey` cast for `@tanstack/react-query` v5 ([67a3073](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/67a30731713b2f1a047f0cd72f728db752322305))
+* better types for plugin `api` ([a4303b7](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/a4303b7b102d871f514649f2edb4fb9058d6564d))
+* better types for PluginFactoryOptions and `KubbPlugin` ([3fb7bdd](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/3fb7bdd7b612373c55597705037eab9fdc8202ee))
+* docs about wrong Badge usage, wrong import line example ([15c0cd3](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/15c0cd34f54629292d30c57e162dad4467f8b9c8))
+* replace 'importModule' by 'PackageManager' ([f66065a](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/f66065af900041eae6c26f301abaeef25d69157b))
+* upgrade js-runtime ([70785bd](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/70785bdaa1cb3e35a9511b73b0772de644eecd39))
+* upgrade packages ([6222f59](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/6222f599d96ab1fa34b41720715e5004cceee56b))
+* use of `fileManager.addIndexes` and `URLPath` without static functions ([9bc291d](https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/kubb/commit/9bc291d5b9126b1d3f26803e6a1c54a3b008f634))
+
 ## [1.14.7](https://github.com/kubb-project/kubb/compare/kubb-v1.14.6...kubb-v1.14.7) (2023-11-08)
 
 
