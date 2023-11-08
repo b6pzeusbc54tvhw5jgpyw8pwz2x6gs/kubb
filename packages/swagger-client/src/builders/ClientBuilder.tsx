@@ -36,13 +36,11 @@ export class ClientBuilder extends OasBuilder<Options> {
       { type: 'TVariables', default: schemas.request?.name, enabled: !!schemas.request?.name },
     ])
 
-    clientGenerics.add([{ type: 'TData' }, { type: 'TVariables', enabled: !!schemas.request?.name }])
-
     params.add([
       ...getASTParams(schemas.pathParams, { typed: true, asObject: pathParamsType === 'object' }),
       {
         name: 'data',
-        type: 'TVariables',
+        type: schemas.request?.name,
         enabled: !!schemas.request?.name,
         required: !!schemas.request?.schema.required?.length,
       },
@@ -76,7 +74,7 @@ export class ClientBuilder extends OasBuilder<Options> {
           clientGenerics={clientGenerics.toString()}
           dataReturnType={dataReturnType}
           params={params.toString()}
-          returnType={dataReturnType === 'data' ? `ResponseConfig<TData>["data"]` : `ResponseConfig<TData>`}
+          returnType={dataReturnType === 'data' ? `ResponseConfig<${schemas.response.name}>["data"]` : `ResponseConfig<${schemas.response.name}>`}
           method={method}
           path={new URLPath(operation.path)}
           withParams={!!schemas.queryParams?.name}

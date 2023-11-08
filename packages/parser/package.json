@@ -23,6 +23,11 @@
       "require": "./dist/index.cjs",
       "default": "./dist/index.cjs"
     },
+    "./factory": {
+      "import": "./dist/factory.js",
+      "require": "./dist/factory.cjs",
+      "default": "./dist/factory.cjs"
+    },
     "./package.json": "./package.json",
     "./*": "./*"
   },
